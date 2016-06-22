@@ -1,0 +1,438 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,700|Squada+One);
+
+
+/*==============================================================================
+Global
+==============================================================================*/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Squada One', cursive;
+}
+
+p, .lead {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*=========================================================================
+Header
+===========================================================================*/
+.header {
+  width: 100%;
+
+}
+
+.header__logo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo__img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.img__svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.header__hero {
+  width: 100%;
+  height: 550px;
+  background: url(../img/hero-imagae-webdesign.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hero-imagae-webdesign.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hero-imagae-webdesign.jpg', sizingMethod='scale')";
+}
+
+.hero__filter {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(68, 222, 222, 0.3);
+}
+
+.hero__container{
+  padding-top: 90px;
+}
+
+.cantainer__text{
+  width: 100%;
+  height: 370px;
+  background-color: rgba(122, 212, 206, 0.6);
+}
+.text__h2 {
+  padding: 0;
+  margin: 0;
+  color: #f16651;
+  font-size: 9em;
+  font-weight: 700;
+  line-height: 90%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text__h2--white {
+  color: #f5f5f5;
+}
+
+/*=========================================================================
+About
+===========================================================================*/
+.about {
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__text {
+  padding: 30px 10px;
+}
+
+.text__p {
+  color: #666666;
+  font-family: 'Squada One', cursive;
+  font-size: 2.5em;
+}
+
+/*=========================================================================
+Call
+===========================================================================*/
+.call {
+  width: 100%;
+
+}
+.call__container {
+      padding: 30px 10px;
+}
+
+.call__h2{
+  color: #666666;
+  font-size: 2.5em;
+}
+
+.call__p {
+  color: #7c7b7a;
+  font-size: 2em;
+}
+.call__btn {
+  padding-top: 15px;
+    width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.call__btn--orange {
+  font-size: 2em;
+  color: #ffffff;
+  background-color: #fcae0d;
+  border: 1px solid #ce8709;
+  -webkit-transition: all 1s;
+   transition: all 1s;
+}
+.call__btn--orange:hover {
+  color: #f5f5f5;
+  background-color: #f16651;
+
+}
+/*=========================================================================
+Works
+===========================================================================*/
+.work {
+
+  padding-top: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.work__h2 {
+    font-weight: 700;
+  font-size: 2.5em;
+  color: #fff;
+}
+.work__h4 {
+  font-size: 2em;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.work__p {
+  color: #666666;
+  font-size: 1.5em;
+  line-height: 80%;
+}
+.work__img {
+  margin: 0 auto -8% auto;
+  width: 60%;
+
+}
+.work__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.work__footer {
+  width: 100%;
+  padding: 7% 0 50px 0;
+}
+.work__btn {
+  color: #666666;
+  font-size: 2em;
+}
+.work__btn--st, .work__btn--lb, .work__btn--ot{
+  -webkit-transition: all 1s;
+   transition: all .6s;
+}
+
+.work__btn--ot {
+  border: 2px solid #40d59f;
+}
+.work__btn--lb {
+  border: 2px solid #79D1B0;
+}
+.work__btn--st {
+  border: 2px solid #93CEB6;
+}
+.work__btn--ot:hover {
+  color: #f5f5f5;
+  background-color: #40d59f;
+}
+.work__btn--lb:hover {
+  color: #f5f5f5;
+  background-color: #79D1B0;
+}
+.work__btn--st:hover {
+  color: #f5f5f5;
+  background-color: #93CEB6;
+}
+.work__top--green {
+    background-color: #40d59f;
+  }
+.work__top--green--md {
+  background-color: #79d1b0;
+  }
+.work__top--green--lw {
+    background-color: #93ceb6;
+  }
+  /*=========================================================================
+  Contact
+  ===========================================================================*/
+  .contact {
+    width: 100%;
+    background-color: #F16651;
+  }
+  .contact__container  {
+    padding: 30px 10px;
+  }
+  .contact__h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #fff;
+    color: #666666;
+    padding: 5px;
+    text-align: center;
+  -webkit-border-radius: 5px;
+  }
+.contact__p {
+  color:  #fff;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.contact__label {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+.contact__input, .contact__text{
+  background-color: #F4A198;
+  border: 1px solid #fff;
+  color: #f5f5f5;
+  font-size: 1.3em;
+}
+.contact__text{
+  height: 153px !important;
+}
+.contact__btn{
+  width: 100%;
+  color: #fff;
+  background-color: #F16651;
+  border: 1px solid #fff;
+  -webkit-transition: all 1s;
+   transition: all .6s;
+}
+
+.contact__btn:hover{
+  background: #fff;
+  color: #666666;
+}
+/*=========================================================================
+Footer
+===========================================================================*/
+.footer {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__container {
+  padding: 15px 10px;
+}
+
+.footer__nav {
+  margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer__list {
+
+}
+.footer__link{
+  padding: 1rem 3rem;
+      max-width: 100%;
+      text-decoration: none;
+      display: flex;
+      align-items: flex-start;
+      color: #333;
+      text-decoration: none !important;
+
+}
+
+.footer__fa {
+  line-height: 20px;
+  padding-right: 1.143rem;
+  font-size: 2rem;
+}
+
+.footer__fa--g {color: #dc4e41; }
+.footer__fa--tw {color: #55acee;}
+.footer__fa--fk {color: #3b5998;}
+
+/*=========================================================================
+Modal
+===========================================================================*/
+.error {
+ border: none !important;
+}
+
+.error__header {
+  color: #fff;
+  background-color: #e95450 !important;
+  height: 200px;
+  border: none  !important;
+}
+
+.error__close {
+  color: #fff !important;
+}
+.error__item {
+  font-size: 10em;
+  text-align: center;
+  padding-top: 1.5rem;
+  line-height: 130px;
+}
+.error__body {
+  background-color: #fff !important;
+  border: none  !important;
+  text-align: center;
+}
+
+.error__p {
+  color: #666666;
+  font-size: 1.5em;
+}
+.error__p--icon {
+
+  color: #e95450;
+}
+
+
+.send {
+ border: none !important;
+}
+
+.send__header {
+  color: #fff;
+  background-color: #40d59f !important;
+  height: 200px;
+  border: none  !important;
+}
+
+.send__close {
+  color: #fff !important;
+}
+.send__item {
+  font-size: 10em;
+  text-align: center;
+  padding-top: 1.5rem;
+  line-height: 130px;
+}
+.send__body {
+  background-color: #fff !important;
+  border: none  !important;
+  text-align: center;
+}
+
+.send__p {
+  color: #666666;
+  font-size: 1.5em;
+}
+/*=========================================================================
+Media querys
+===========================================================================*/
+/* Large desktop */
+@media (min-width: 1200px) { }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /*=========================================================================
+  Header
+  ===========================================================================*/
+  .header__hero {height: 400px;}
+  .hero__container{ padding-top: 50px;}
+  .cantainer__text {height: 300px;}
+  .text__h2 { font-size: 7em;}
+
+  /*=========================================================================
+  Works
+  ===========================================================================*/
+  .work__p {line-height: 100%;}
+
+  .work__footer {  padding: 14% 0 50px 0;}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  /*=========================================================================
+  Header
+  ===========================================================================*/
+  .header__hero {height: 300px;}
+  .cantainer__text {height: 200px;}
+  .text__h2 { font-size: 5em;}
+
+ }
